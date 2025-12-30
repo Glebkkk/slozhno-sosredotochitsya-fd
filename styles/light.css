@@ -18,13 +18,14 @@
 
   @media (prefers-color-scheme: light) {
     :root {
-      --page-background-image: url(../images/cover-image-light.png);
-      --page-background-color: #FFF1F7;
-      --text-color: #353430;
-      --accent-color: #FF8DCB;
-      --header-title-color: #FFC2E6;
-      --decor-color: #353430;
-      --REC: none;
-       --bg-title-color: #FF8DCB;
+       --page-background-image: url(../images/cover-image-light.png);
+        --page-background-color: #FFF1F7;
+        --text-color: #353430;
+        --accent-color: #353430;
+        --header-title-color: #FFC2E6;
+        --decor-color: #353430;
+        --bg-title-color: #FF8DCB;
+        --REC: none;
+        --accent-color-transparent: rgba(53, 52, 48, 0.4);
     }
 }
