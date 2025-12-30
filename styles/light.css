@@ -5,7 +5,6 @@
 */
 
 :root.theme-light {
-    --font-family: 'IBM Plex mono', Arial, sans-serif;
     --page-background-image: url(../images/cover-image-light.png);
     --page-background-color: #FFF1F7;
     --text-color: #353430;
@@ -19,7 +18,6 @@
 
   @media (prefers-color-scheme: light) {
     :root {
-      --font-family: 'IBM Plex mono', Arial, sans-serif;
       --page-background-image: url(../images/cover-image-light.png);
       --page-background-color: #FFF1F7;
       --text-color: #353430;
