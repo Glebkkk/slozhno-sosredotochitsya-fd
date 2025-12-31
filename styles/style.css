@@ -152,12 +152,15 @@
   padding: 0 10px;
 }
 
-.reasons_title {
-  margin-block-start: 40px;
+.title-section {
   font-family: var(--font-family);
   font-size: 18px;
   line-height: 23.4px;
   color: var(--accent-color);
+}
+
+.reasons_title {
+  margin-block-start: 40px;
 }
 
 .content_list {
@@ -174,25 +177,13 @@
 
 .distractors_title {
   margin-block-start: 50px;
-  font-family: var(--font-family);
-  font-size: 18px;
-  line-height: 23.4px;
-  color: var(--accent-color); 
 }
 
 .solutions_title {
   margin-block-start: 50px;
-  font-family: var(--font-family);
-  font-size: 18px;
-  line-height: 23.4px;
-  color: var(--accent-color);
 }
 
-.advices {
-  margin-block-start: 20px;
-}
-
-.second_title {
+.five_advices {
   margin-block-start: 20px;
 }
 
@@ -261,7 +252,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   color: var(--header-title-color);
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-footer-color);
 }
 
 .decorated-zone::before {
@@ -313,6 +304,7 @@
   }
 
   .header_title {
+    margin-inline-start: -10px;
     justify-self: self-start;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -349,7 +341,7 @@
     margin-block-start: 48px;
     display: grid;
     grid-template-columns: minmax(min-content, 240px) 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto auto;
     gap: 15px;
   }
 
@@ -358,19 +350,25 @@
     margin-block-start: 30px;
     max-inline-size: 100%;
   }
-
-  .advices {
-    grid-column: 2;
+  
+  .advices_container {
     margin-block-start: 10px;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .five_advices {
     height: 23px;
+    height: auto;
   }
 
-  .second_title {
-    margin-block-start: 30px;
+  .list_container {
+    grid-column: 2;
+    grid-row: 2;
   }
 
   .solutions .content_list {
-    grid-column: 2;
+    margin-block-start: -85px;
   }
 
   .solution_title {
@@ -487,6 +485,7 @@
     margin-block-start: 30px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
     gap: 12px;
   }
 
@@ -496,14 +495,19 @@
     max-inline-size: 100%;
   }
 
-  .advices {
+  .advices_container {
+    margin-block-end: 10px;
     grid-column: 2;
-    margin-block-start: 10px;
-    height: 23px;
+    grid-row: 1;
+  }
+
+  .list_container {
+    grid-column: 2;
+    grid-row: 2;
   }
 
   .solutions .content_list {
-    grid-column: 2;
+    margin-block-start: -60px;
   }
 
   .solution_title {

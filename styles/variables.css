@@ -12,6 +12,7 @@
   --header-title-color: #DB00FF; 
   --decor-color: #000028; 
   --bg-title-color: #FF0070;
-  --REC: flex;
+  --rec: flex;
   --accent-color-transparent: rgba(255, 0, 112, 0.4);
+  --accent-footer-color: #FF0070;
 }

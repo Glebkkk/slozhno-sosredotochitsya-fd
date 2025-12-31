@@ -12,8 +12,9 @@
     --header-title-color: #FFC2E6;
     --decor-color: #353430;
     --bg-title-color: #FF8DCB;
-    --REC: none;
+    --rec: none;
     --accent-color-transparent: rgba(53, 52, 48, 0.4);
+    --accent-footer-color: #FF8DCB;
 }
 
   @media (prefers-color-scheme: light) {
@@ -25,7 +26,8 @@
         --header-title-color: #FFC2E6;
         --decor-color: #353430;
         --bg-title-color: #FF8DCB;
-        --REC: none;
+        --rec: none;
         --accent-color-transparent: rgba(53, 52, 48, 0.4);
+        --accent-footer-color: #FF8DCB;
     }
 }
